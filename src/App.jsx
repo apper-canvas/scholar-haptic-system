@@ -18,6 +18,7 @@ import GradesPage from "@/components/pages/GradesPage";
 import StudentsPage from "@/components/pages/StudentsPage";
 import ParentsPage from "@/components/pages/ParentsPage";
 import ClassesPage from "@/components/pages/ClassesPage";
+import StaffPage from "@/components/pages/StaffPage";
 // Create auth context
 export const AuthContext = createContext(null);
 
@@ -148,6 +149,7 @@ function AppContent() {
                 <Route path="/" element={<StudentsPage onMobileMenuToggle={toggleMobileMenu} />} />
                 <Route path="/parents" element={<ParentsPage onMobileMenuToggle={toggleMobileMenu} />} />
                 <Route path="/classes" element={<ClassesPage onMobileMenuToggle={toggleMobileMenu} onClassCountChange={setClassCount} />} />
+                <Route path="/staff" element={<StaffPage onMobileMenuToggle={toggleMobileMenu} />} />
                 <Route path="/grades" element={<GradesPage onMobileMenuToggle={toggleMobileMenu} />} />
 <Route path="/attendance" element={<AttendancePage onMobileMenuToggle={toggleMobileMenu} />} />
                 <Route path="/reports" element={<ReportsPage onMobileMenuToggle={toggleMobileMenu} />} />

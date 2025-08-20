@@ -1,0 +1,167 @@
+[
+  {
+    "Id": 1,
+    "Name": "Dr. Sarah Johnson",
+    "Email": "sarah.johnson@scholarhub.edu",
+    "Phone": "(555) 123-4567",
+    "Department": "Mathematics",
+    "Position": "Department Head",
+    "HireDate": "2018-08-15",
+    "Salary": 75000,
+    "Status": "Active"
+  },
+  {
+    "Id": 2,
+    "Name": "Michael Chen",
+    "Email": "michael.chen@scholarhub.edu",
+    "Phone": "(555) 234-5678",
+    "Department": "Science",
+    "Position": "Teacher",
+    "HireDate": "2019-01-10",
+    "Salary": 65000,
+    "Status": "Active"
+  },
+  {
+    "Id": 3,
+    "Name": "Emily Rodriguez",
+    "Email": "emily.rodriguez@scholarhub.edu",
+    "Phone": "(555) 345-6789",
+    "Department": "English",
+    "Position": "Teacher",
+    "HireDate": "2017-09-01",
+    "Salary": 62000,
+    "Status": "Active"
+  },
+  {
+    "Id": 4,
+    "Name": "Robert Thompson",
+    "Email": "robert.thompson@scholarhub.edu",
+    "Phone": "(555) 456-7890",
+    "Department": "Administration",
+    "Position": "Principal",
+    "HireDate": "2015-07-01",
+    "Salary": 95000,
+    "Status": "Active"
+  },
+  {
+    "Id": 5,
+    "Name": "Lisa Wang",
+    "Email": "lisa.wang@scholarhub.edu",
+    "Phone": "(555) 567-8901",
+    "Department": "History",
+    "Position": "Teacher",
+    "HireDate": "2020-08-25",
+    "Salary": 58000,
+    "Status": "Active"
+  },
+  {
+    "Id": 6,
+    "Name": "David Martinez",
+    "Email": "david.martinez@scholarhub.edu",
+    "Phone": "(555) 678-9012",
+    "Department": "Physical Education",
+    "Position": "Teacher",
+    "HireDate": "2019-06-15",
+    "Salary": 55000,
+    "Status": "Active"
+  },
+  {
+    "Id": 7,
+    "Name": "Jennifer Adams",
+    "Email": "jennifer.adams@scholarhub.edu",
+    "Phone": "(555) 789-0123",
+    "Department": "Art",
+    "Position": "Teacher",
+    "HireDate": "2021-01-12",
+    "Salary": 54000,
+    "Status": "Active"
+  },
+  {
+    "Id": 8,
+    "Name": "Thomas Wilson",
+    "Email": "thomas.wilson@scholarhub.edu",
+    "Phone": "(555) 890-1234",
+    "Department": "Music",
+    "Position": "Teacher",
+    "HireDate": "2018-03-20",
+    "Salary": 56000,
+    "Status": "OnLeave"
+  },
+  {
+    "Id": 9,
+    "Name": "Amanda Foster",
+    "Email": "amanda.foster@scholarhub.edu",
+    "Phone": "(555) 901-2345",
+    "Department": "Administration",
+    "Position": "Vice Principal",
+    "HireDate": "2016-11-08",
+    "Salary": 82000,
+    "Status": "Active"
+  },
+  {
+    "Id": 10,
+    "Name": "Kevin Park",
+    "Email": "kevin.park@scholarhub.edu",
+    "Phone": "(555) 012-3456",
+    "Department": "Computer Science",
+    "Position": "Teacher",
+    "HireDate": "2022-01-03",
+    "Salary": 68000,
+    "Status": "Active"
+  },
+  {
+    "Id": 11,
+    "Name": "Maria Gonzalez",
+    "Email": "maria.gonzalez@scholarhub.edu",
+    "Phone": "(555) 123-5678",
+    "Department": "Science",
+    "Position": "Department Head",
+    "HireDate": "2014-09-15",
+    "Salary": 78000,
+    "Status": "Active"
+  },
+  {
+    "Id": 12,
+    "Name": "James Cooper",
+    "Email": "james.cooper@scholarhub.edu",
+    "Phone": "(555) 234-6789",
+    "Department": "Support",
+    "Position": "Counselor",
+    "HireDate": "2020-02-14",
+    "Salary": 60000,
+    "Status": "Active"
+  },
+  {
+    "Id": 13,
+    "Name": "Rachel Kim",
+    "Email": "rachel.kim@scholarhub.edu",
+    "Phone": "(555) 345-7890",
+    "Department": "Support",
+    "Position": "Librarian",
+    "HireDate": "2019-08-01",
+    "Salary": 48000,
+    "Status": "Active"
+  },
+  {
+    "Id": 14,
+    "Name": "Brian Davis",
+    "Email": "brian.davis@scholarhub.edu",
+    "Phone": "(555) 456-8901",
+    "Department": "Support",
+    "Position": "IT Support",
+    "HireDate": "2021-05-10",
+    "Salary": 52000,
+    "Status": "Inactive"
+  },
+  {
+    "Id": 15,
+    "Name": "Patricia Miller",
+    "Email": "patricia.miller@scholarhub.edu",
+    "Phone": "(555) 567-9012",
+    "Department": "Support",
+    "Position": "Nurse",
+    "HireDate": "2017-04-18",
+    "Salary": 58000,
+    "Status": "Active"
+  }
+]
