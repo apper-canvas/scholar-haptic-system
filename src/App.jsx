@@ -16,8 +16,8 @@ import AttendancePage from "@/components/pages/AttendancePage";
 import ComingSoonPage from "@/components/pages/ComingSoonPage";
 import GradesPage from "@/components/pages/GradesPage";
 import StudentsPage from "@/components/pages/StudentsPage";
+import ParentsPage from "@/components/pages/ParentsPage";
 import ClassesPage from "@/components/pages/ClassesPage";
-
 // Create auth context
 export const AuthContext = createContext(null);
 
@@ -144,8 +144,9 @@ function AppContent() {
           <div className="min-h-screen bg-gray-50 flex">
             <Sidebar isOpen={isMobileMenuOpen} onClose={closeMobileMenu} classCount={classCount} />
             <div className="flex-1 flex flex-col min-w-0">
-              <Routes>
+<Routes>
                 <Route path="/" element={<StudentsPage onMobileMenuToggle={toggleMobileMenu} />} />
+                <Route path="/parents" element={<ParentsPage onMobileMenuToggle={toggleMobileMenu} />} />
                 <Route path="/classes" element={<ClassesPage onMobileMenuToggle={toggleMobileMenu} onClassCountChange={setClassCount} />} />
                 <Route path="/grades" element={<GradesPage onMobileMenuToggle={toggleMobileMenu} />} />
 <Route path="/attendance" element={<AttendancePage onMobileMenuToggle={toggleMobileMenu} />} />

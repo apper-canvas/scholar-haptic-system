@@ -4,8 +4,9 @@ import ApperIcon from "@/components/ApperIcon";
 import { cn } from "@/utils/cn";
 
 const Sidebar = ({ isOpen, onClose, classCount = 0 }) => {
-  const navigation = [
+const navigation = [
     { name: "Students", href: "/", icon: "Users" },
+    { name: "Parents", href: "/parents", icon: "Users" },
     { name: "Classes", href: "/classes", icon: "BookOpen", count: classCount },
     { name: "Grades", href: "/grades", icon: "Award" },
     { name: "Attendance", href: "/attendance", icon: "Calendar" },
