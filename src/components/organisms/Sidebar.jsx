@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import ApperIcon from "@/components/ApperIcon";
 import { cn } from "@/utils/cn";
+import { AuthContext } from "@/App";
 
 const Sidebar = ({ isOpen, onClose, classCount = 0 }) => {
 const navigation = [
@@ -65,7 +66,7 @@ const DesktopSidebar = () => (
 
 // LogoutButton component
   const LogoutButton = () => {
-    const { logout } = React.useContext(React.createContext(null)) || {};
+    const { logout } = useContext(AuthContext) || {};
     
     if (!logout) return null;
     
