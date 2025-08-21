@@ -119,9 +119,9 @@ const StaffModal = ({ isOpen, onClose, onSave, staff = null }) => {
 
     if (!formData.Position.trim()) {
       newErrors.Position = 'Position is required'
-    }
+}
 
-    if (formData.Phone && !/^[\+]?[1-9][\d]{0,15}$/.test(formData.Phone.replace(/\s/g, ''))) {
+    if (formData.Phone && !/^[+]?[1-9][\d]{0,15}$/.test(formData.Phone.replace(/\s/g, ''))) {
       newErrors.Phone = 'Please enter a valid phone number'
     }
 
