@@ -69,38 +69,38 @@ const StudentTable = ({ students, onEditStudent, onDeleteStudent }) => {
             <tr>
 <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 <button 
-                  onClick={() => handleSort("firstName_c")}
+                  onClick={() => handleSort("firstName")}
                   className="flex items-center space-x-1 hover:text-gray-700 transition-colors duration-200"
                 >
                   <span>Name</span>
-                  <SortIcon column="firstName_c" />
+                  <SortIcon column="firstName" />
                 </button>
               </th>
 <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 <button 
-                  onClick={() => handleSort("studentId_c")}
+                  onClick={() => handleSort("studentId")}
                   className="flex items-center space-x-1 hover:text-gray-700 transition-colors duration-200"
                 >
                   <span>Student ID</span>
-                  <SortIcon column="studentId_c" />
+                  <SortIcon column="studentId" />
                 </button>
               </th>
 <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 <button 
-                  onClick={() => handleSort("gradeLevel_c")}
+                  onClick={() => handleSort("gradeLevel")}
                   className="flex items-center space-x-1 hover:text-gray-700 transition-colors duration-200"
                 >
                   <span>Grade Level</span>
-                  <SortIcon column="gradeLevel_c" />
+                  <SortIcon column="gradeLevel" />
                 </button>
               </th>
 <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 <button 
-                  onClick={() => handleSort("enrollmentStatus_c")}
+                  onClick={() => handleSort("enrollmentStatus")}
                   className="flex items-center space-x-1 hover:text-gray-700 transition-colors duration-200"
                 >
                   <span>Status</span>
-                  <SortIcon column="enrollmentStatus_c" />
+                  <SortIcon column="enrollmentStatus" />
                 </button>
               </th>
               <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -121,29 +121,29 @@ const StudentTable = ({ students, onEditStudent, onDeleteStudent }) => {
 <div className="flex items-center">
                        <div className="flex-shrink-0 h-10 w-10">
                          <div className="h-10 w-10 rounded-full bg-gradient-to-br from-primary-500 to-primary-600 flex items-center justify-center">
-                           <span className="text-sm font-medium text-white">
-                             {student.firstName_c?.charAt(0)}{student.lastName_c?.charAt(0)}
+<span className="text-sm font-medium text-white">
+                             {student.firstName?.charAt(0)}{student.lastName?.charAt(0)}
                            </span>
                          </div>
                        </div>
                        <div className="ml-4">
                          <div className="text-sm font-medium text-gray-900">
-                           {student.firstName_c} {student.lastName_c}
+                           {student.firstName} {student.lastName}
                          </div>
-                         <div className="text-sm text-gray-500">
-                           {student.email_c}
+<div className="text-sm text-gray-500">
+                           {student.email}
                          </div>
                       </div>
                     </div>
                   </td>
 <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                     {student.studentId_c}
+                     {student.studentId}
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-Grade {student.gradeLevel_c}
+<td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+Grade {student.gradeLevel}
                    </td>
                   <td className="px-6 py-4 whitespace-nowrap">
-{getStatusBadge(student.enrollmentStatus_c)}
+{getStatusBadge(student.enrollmentStatus)}
                    </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
                     <div className="flex items-center space-x-2">
