@@ -250,6 +250,19 @@ function StaffModal({ isOpen, onClose, onSave, staff = null }) {
                   ]}
                   required
                 />
+<FormField
+                  label="Status"
+                  name="Status"
+                  type="select"
+                  value={formData.Status}
+                  onChange={handleInputChange}
+                  error={errors.Status}
+                  options={statusOptions.map(status => ({ 
+                    value: status, 
+                    label: status === 'OnLeave' ? 'On Leave' : status 
+                  }))}
+                  required
+                />
 
                 <FormField
                   label="Hire Date"
@@ -271,20 +284,6 @@ function StaffModal({ isOpen, onClose, onSave, staff = null }) {
                   placeholder="Enter annual salary"
                   min="0"
                   step="1000"
-                  required
-                />
-
-                <FormField
-                  label="Status"
-                  name="Status"
-                  type="select"
-                  value={formData.Status}
-                  onChange={handleInputChange}
-                  error={errors.Status}
-                  options={statusOptions.map(status => ({ 
-                    value: status, 
-                    label: status === 'OnLeave' ? 'On Leave' : status 
-                  }))}
                   required
                 />
               </div>
