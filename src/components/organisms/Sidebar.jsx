@@ -8,6 +8,7 @@ const Sidebar = ({ isOpen, onClose, classCount = 0 }) => {
 const navigation = [
     { name: "Students", href: "/", icon: "Users" },
     { name: "Parents", href: "/parents", icon: "Users" },
+    { name: "Staff", href: "/staff", icon: "UserCheck" },
     { name: "Classes", href: "/classes", icon: "BookOpen", count: classCount },
     { name: "Grades", href: "/grades", icon: "Award" },
     { name: "Attendance", href: "/attendance", icon: "Calendar" },
