@@ -291,7 +291,7 @@ const ClassModal = ({ isOpen, onClose, onSave, initialData = null, loading = fal
               rows={3}
             />
 
-            <FormField
+<FormField
               label="Status"
               name="status_c"
               type="select"

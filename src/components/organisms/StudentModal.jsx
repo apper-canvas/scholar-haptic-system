@@ -265,20 +265,22 @@ return (
                 Academic Details
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <FormField
+<FormField
                   label="Grade Level"
                   type="select"
                   name="gradeLevel"
                   value={formData.gradeLevel}
                   onChange={handleInputChange}
                   error={errors.gradeLevel}
+                  options={[
+                    { value: "", label: "Select Grade" },
+                    ...Array.from({ length: 12 }, (_, i) => i + 1).map(grade => ({
+                      value: grade,
+                      label: `Grade ${grade}`
+                    }))
+                  ]}
                   required
-                >
-                  <option value="">Select Grade</option>
-                  {Array.from({ length: 12 }, (_, i) => i + 1).map(grade => (
-                    <option key={grade} value={grade}>Grade {grade}</option>
-                  ))}
-                </FormField>
+                />
 
                 <FormField
                   label="Enrollment Date"
