@@ -14,22 +14,10 @@ const FormField = ({
   required = false,
   ...props 
 }) => {
-const renderField = () => {
+  const renderField = () => {
     switch (type) {
       case "select":
-        return (
-          <Select {...props}>
-            {props.options ? (
-              props.options.map((option, index) => (
-                <option key={option.value || index} value={option.value}>
-                  {option.label}
-                </option>
-              ))
-            ) : (
-              children
-            )}
-          </Select>
-        );
+        return <Select {...props}>{children}</Select>;
       case "textarea":
         return <Textarea {...props} />;
       default:

@@ -9,7 +9,6 @@ const navigation = [
     { name: "Students", href: "/", icon: "Users" },
     { name: "Parents", href: "/parents", icon: "Users" },
     { name: "Classes", href: "/classes", icon: "BookOpen", count: classCount },
-    { name: "Staff", href: "/staff", icon: "UserCheck" },
     { name: "Grades", href: "/grades", icon: "Award" },
     { name: "Attendance", href: "/attendance", icon: "Calendar" },
     { name: "Reports", href: "/reports", icon: "BarChart3" },
